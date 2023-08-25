@@ -428,7 +428,7 @@ div.team img {
 /* REVIEW */
 
 section.review {
-   background-image: url(../images/background/bg-review.svg);
+
    /* 
       background-size: contain;
       membuat gambar latar belakang tidak terpotong
@@ -552,7 +552,24 @@ div.testimoni:hover {
 
 @media (max-width:600px) {
 
-   header div.kiri,
+   header div.kiri {
+      width: 100%;
+      text-align: justify;
+   }
+
+   h1 {
+      text-align: center;
+      font-size: 2ch;
+   }
+
+   div.olshop {
+      text-align: center;
+   }
+
+   div.testimoni {
+      width: 100%;
+   }
+
    header div.kanan {
       width: 100%;
    }
@@ -587,15 +604,19 @@ div.testimoni:hover {
       font-size: 25px;
    }
 
-   section.our-team div.team p.nama {
-      width: 25%;
+   div.team {
+      width: 50%;
+   }
+
+   div.team p.nama {
       text-align: center;
-      font-size: 10px;
+      font-size: 12px;
    }
 
    section.our-team p.title {
-      font-size: 9px;
+      font-size: 11px;
       font-weight: bold;
+      text-align: center;
    }
 
    section.review p {
@@ -623,7 +644,9 @@ div.testimoni:hover {
       text-align: center;
    }
 
-
+   .navigasi {
+      display: none;
+   }
 }
 
 /* Kode CSS Selesai di sini */
