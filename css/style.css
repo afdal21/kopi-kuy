@@ -135,7 +135,7 @@ nav {
    untuk pengguna vscode silahkan arahkan mouse ke kotak warna di bawah
    untuk mengganti warna sesuai keinginan
    */
-   background-color: blue;
+   background-color: brown;
 
    /* box-shadow membuat efek bayangan */
    box-shadow: 0 3px 7px -2px #000;
@@ -506,7 +506,7 @@ section.contact-us iframe {
 div.kontak {
    width: 30%;
    /* color mengatur warna tulisan */
-   color: blue;
+   color: black;
    text-align: center;
    margin-top: 50px;
 }
@@ -515,7 +515,7 @@ div.kontak {
 /* FOOTER */
 
 footer {
-   background-color: blue;
+   background-color: brown;
    padding-top: 15px;
    padding-bottom: 15px;
    color: yellow;
