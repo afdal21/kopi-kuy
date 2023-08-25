@@ -114,6 +114,8 @@ h2,
 h3 {
    /* mengatur tebal huruf bisa bold, normal*/
    font-weight: bold;
+   font-family: 'Times New Roman';
+   font-size: 7ch;
 }
 
 img {
@@ -452,10 +454,19 @@ section.review h2 {
    width: 100%;
 }
 
+section.review p.status {
+   font-weight: bold;
+}
+
 section.review>p {
    margin-bottom: 40px;
    font-size: 18px;
    width: 100%;
+}
+
+section.review h3 {
+   font-weight: bold;
+   font-size: 30px;
 }
 
 div.testimoni {
@@ -559,7 +570,8 @@ div.testimoni:hover {
 
    h1 {
       text-align: center;
-      font-size: 2ch;
+      font-size: 6ch;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    }
 
    div.olshop {
@@ -574,34 +586,24 @@ div.testimoni:hover {
       width: 100%;
    }
 
-   section div.produk p {
-      width: 25%;
-      font-size: 8px;
-      text-align: center;
-   }
-
    section.about-us p {
-      width: 100%;
       text-align: justify;
       font-size: 11px;
    }
 
    section.about-us h2 {
-      width: 100%;
       text-align: center;
-      font-size: 20px;
+      font-size: 35px;
    }
 
    section.our-team p {
-      width: 100%;
       text-align: justify;
       font-size: 11px;
    }
 
    section.our-team h2 {
-      width: 100%;
       text-align: center;
-      font-size: 25px;
+      font-size: 40px;
    }
 
    div.team {
@@ -619,20 +621,24 @@ div.testimoni:hover {
       text-align: center;
    }
 
-   section.review p {
-      width: 100%;
-      text-align: justify;
-      font-size: 11px;
+   section.review p.status {
+      text-align: center;
+      font-size: 15px;
    }
 
    section.review h2 {
       text-align: center;
-      font-size: 25px;
+      font-size: 40px;
    }
 
-   section.review div.testimoni {
-      text-align: justify;
-      font-size: 10px;
+   section.review h3 {
+      font-size: 30px;
+      text-align: center;
+   }
+
+   section.review p {
+      font-size: 15px;
+      text-align: center;
    }
 
    section.contact-us div.kontak {
@@ -646,6 +652,15 @@ div.testimoni:hover {
 
    .navigasi {
       display: none;
+   }
+
+   section.best-seller div.produk {
+      text-align: center;
+      width: 50%;
+   }
+
+   section.best-seller h2 {
+      font-size: 40px;
    }
 }
 
